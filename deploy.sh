@@ -37,7 +37,7 @@ cd $APP_DIR
 # Clone the repository if not already cloned
 if [ ! -d ".git" ]; then
     echo "Cloning repository..."
-    git clone <your-repository-url> .
+    git clone https://github.com/tech-rover/water-quality-monitor.git .
 fi
 
 # Pull latest changes
@@ -57,7 +57,7 @@ echo "Configuring nginx..."
 sudo tee /etc/nginx/sites-available/water-quality-monitor << EOF
 server {
     listen 80;
-    server_name your-domain.com;  # Replace with your domain
+    server_name waterquality.tech-rover.in;  
 
     root /var/www/water-quality-monitor/build;
     index index.html;

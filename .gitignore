@@ -9,7 +9,7 @@
 # Production
 /build
 /dist
-
+dist.zip
 # Environment files
 .env
 .env.local

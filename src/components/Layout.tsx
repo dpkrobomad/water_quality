@@ -30,6 +30,7 @@ export default function Layout() {
       console.error('Error signing out:', error);
     }
   };
+  
 
   const menuItems = [
     { path: '/', icon: LayoutDashboard, label: 'Dashboard' },

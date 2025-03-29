@@ -96,6 +96,7 @@ export function AIAnalyticsWidget({ analysis, loading, lastUpdated }: AIAnalytic
     );
   };
 
+  
   const renderRecommendationsTab = (data: AnalysisData) => {
     return (
       <div className="space-y-4">

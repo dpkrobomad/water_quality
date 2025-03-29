@@ -106,3 +106,4 @@ VALUES (
 )
 ON CONFLICT (email) DO UPDATE
 SET role = 'admin';
+

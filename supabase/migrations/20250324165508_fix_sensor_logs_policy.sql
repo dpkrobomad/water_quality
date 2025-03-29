@@ -17,3 +17,4 @@ USING (true);
 
 -- Enable RLS
 ALTER TABLE "public"."sensor_logs" ENABLE ROW LEVEL SECURITY; 
+

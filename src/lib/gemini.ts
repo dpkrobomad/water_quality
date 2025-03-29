@@ -17,6 +17,7 @@ export async function generateWaterQualityAnalysis(data: WaterQualityData): Prom
       throw new Error("Gemini API key not found in environment variables");
     }
 
+    
     const model = genAI.getGenerativeModel({ model: "gemini-2.0-flash" });
 
     const prompt = `You are a water quality analysis system. Analyze the following water parameters and provide your response as a clean JSON object (no markdown, no code blocks, just the JSON):
